@@ -1,0 +1,13 @@
+# 基础镜像
+FROM redis
+# author
+MAINTAINER weiter
+
+# 挂载目录
+VOLUME /home/weiter/redis
+# 创建目录
+RUN mkdir -p /home/weiter/redis
+# 指定路径
+WORKDIR /home/weiter/redis
+# 复制conf文件到路径
+COPY ./conf/redis.conf /home/weiter/redis/redis.conf
