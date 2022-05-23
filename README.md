@@ -28,7 +28,7 @@ com.zw.weiter
 │       └── weiter-common-redis                        // 缓存服务
 │       └── weiter-common-security                     // 安全模块
 │       └── weiter-common-swagger                      // 系统接口
-├── weiter-modules         // 业务模块
+├── weiter-service-modules         // 业务模块
 │       └── weiter-system                              // 系统模块 [9201]
 │       └── weiter-gen                                 // 代码生成 [9202]
 │       └── weiter-job                                 // 定时任务 [9203]

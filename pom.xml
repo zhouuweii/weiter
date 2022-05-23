@@ -242,12 +242,11 @@
     </dependencyManagement>
 
     <modules>
-        <module>weiter-auth</module>
-        <module>weiter-gateway</module>
         <module>weiter-visual</module>
-        <module>weiter-modules</module>
+        <module>weiter-service-modules</module>
         <module>weiter-api</module>
         <module>weiter-common</module>
+        <module>weiter-service</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -264,6 +263,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
