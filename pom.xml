@@ -6,14 +6,14 @@
 
     <groupId>com.zw.weiter</groupId>
     <artifactId>weiter</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <name>weiter</name>
     <url>https://github.com/zhouuweii/weiter</url>
     <description>weiter</description>
 
     <properties>
-        <weiter.version>1.0.0</weiter.version>
+        <weiter.version>1.0.1</weiter.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>

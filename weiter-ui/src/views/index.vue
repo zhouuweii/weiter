@@ -3,7 +3,7 @@
     <el-row :gutter="20">
       <el-col :lg="24" :sm="24">
         <blockquote class="text-warning" style="font-size: 14px">
-          Weiter 1.0.0<br/>
+          Weiter 1.0.1<br/>
           <h4 class="text-danger">
             ☛☛ Weiter伴你同行 ☚☚
           </h4>
@@ -165,7 +165,7 @@ export default {
   data() {
     return {
       // 版本号
-      version: "1.0.0",
+      version: "1.0.1",
     };
   },
   methods: {
