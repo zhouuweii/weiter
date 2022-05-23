@@ -1,25 +1,20 @@
-# Tomcat
-server:
-  port: 9100
-
-# Spring
-spring: 
+spring:
   application:
-    # 应用名称
     name: weiter-monitor
-  profiles:
-    # 环境配置
-    active: dev
+  main:
+    allow-circular-references: true
   cloud:
     nacos:
       discovery:
-        # 服务注册地址
         server-addr: 127.0.0.1:8848
+        namespace: 130e1b6-admin-e200l-a2e7-c807e2d9dev
       config:
-        # 配置中心地址
         server-addr: 127.0.0.1:8848
-        # 配置文件格式
+        namespace: 130e1b6-admin-e200l-a2e7-c807e2d9dev
+        group: WEITER_GROUP
+        prefix: weiter-monitor
         file-extension: yml
-        # 共享配置
-        shared-configs:
-          - application-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}
+        extension-configs:
+          - data-id: application-common.yml
+            group: WEITER_GROUP
+            refresh: true
