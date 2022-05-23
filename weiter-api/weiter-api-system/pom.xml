@@ -16,13 +16,16 @@
     </description>
 
     <dependencies>
-
         <!-- Weiter Common Core-->
         <dependency>
             <groupId>com.zw.weiter</groupId>
             <artifactId>weiter-common-core</artifactId>
         </dependency>
-
+        <!-- Mybatis Plus -->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+        </dependency>
     </dependencies>
 
 </project>
